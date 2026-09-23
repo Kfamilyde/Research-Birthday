@@ -407,6 +407,36 @@ body {
   gap: 30px;
 
   padding: 35px 0;
+  @media (max-width: 600px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 50px 25px;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-photo img {
+    height: 430px;
+    max-width: 340px;
+  }
+
+  .intro {
+    margin: 25px auto;
+  }
+
+  .section {
+    padding: 80px 25px;
+  }
+
+  .section h2 {
+    font-size: 34px;
+  }
+
+}
 
   border-bottom: 1px solid rgba(255,255,255,0.12);
 }
