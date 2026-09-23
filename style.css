@@ -1,3 +1,4 @@
+```css
 * {
   box-sizing: border-box;
 }
@@ -26,57 +27,6 @@ body {
   text-align: center;
 
   padding: 40px 20px;
-  /* RESEARCH TIMELINE */
-
-.lead-text {
-  font-size: 20px;
-  max-width: 850px;
-  line-height: 1.8;
-}
-
-.timeline {
-  position: relative;
-  max-width: 900px;
-  margin-top: 60px;
-  padding-left: 40px;
-  border-left: 2px solid #c9a85c;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 55px;
-  padding-left: 30px;
-}
-
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: -49px;
-  top: 7px;
-  width: 14px;
-  height: 14px;
-  background: #c9a85c;
-  border-radius: 50%;
-  box-shadow: 0 0 18px rgba(201, 168, 92, 0.5);
-}
-
-.year {
-  color: #c9a85c;
-  font-size: 14px;
-  letter-spacing: 2px;
-  font-weight: bold;
-}
-
-.timeline-item h3 {
-  font-size: 25px;
-  margin: 10px 0;
-}
-
-.timeline-item p {
-  color: #b8c3d0;
-  line-height: 1.7;
-  margin: 0;
-}
 
   background:
     radial-gradient(circle at center, #173250 0%, #07111f 55%);
@@ -91,51 +41,38 @@ body {
 .small-title {
   letter-spacing: 5px;
   font-size: 13px;
-
   color: #c9a85c;
-
   margin-bottom: 30px;
 }
 
 
 .hero h1 {
   font-size: clamp(45px, 8vw, 90px);
-
   margin: 0;
-
   letter-spacing: 2px;
 }
 
 
 .hero h2 {
   font-size: clamp(25px, 4vw, 45px);
-
   font-weight: 300;
-
   color: #c9a85c;
-
   margin-top: 15px;
 }
 
 
 .intro {
   max-width: 650px;
-
   margin: 30px auto;
-
   font-size: 18px;
-
   line-height: 1.8;
-
   color: #d6dce4;
 }
 
 
 .button {
   display: inline-block;
-
   margin-top: 25px;
-
   padding: 15px 30px;
 
   border: 1px solid #c9a85c;
@@ -143,7 +80,6 @@ body {
   color: #c9a85c;
 
   text-decoration: none;
-
   letter-spacing: 1px;
 
   transition: 0.3s;
@@ -160,44 +96,102 @@ body {
 
 .section {
   padding: 110px 10%;
-
   max-width: 1300px;
-
   margin: auto;
 }
 
 
 .section-number {
   color: #c9a85c;
-
   letter-spacing: 4px;
-
   font-size: 13px;
 }
 
 
 .section h2 {
   font-size: 45px;
-
   margin-top: 10px;
 }
 
 
 .section > p {
   max-width: 750px;
-
   line-height: 1.8;
-
   font-size: 18px;
-
   color: #bec8d5;
 }
 
 
 .dark {
   max-width: none;
-
   background: #0c1928;
+}
+
+
+/* RESEARCH TIMELINE */
+
+.lead-text {
+  font-size: 20px;
+  max-width: 850px;
+  line-height: 1.8;
+}
+
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin-top: 60px;
+  padding-left: 40px;
+
+  border-left: 2px solid #c9a85c;
+}
+
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 55px;
+  padding-left: 30px;
+}
+
+
+.timeline-item::before {
+  content: "";
+
+  position: absolute;
+
+  left: -49px;
+  top: 7px;
+
+  width: 14px;
+  height: 14px;
+
+  background: #c9a85c;
+
+  border-radius: 50%;
+
+  box-shadow: 0 0 18px rgba(201, 168, 92, 0.5);
+}
+
+
+.year {
+  color: #c9a85c;
+
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+
+.timeline-item h3 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+
+.timeline-item p {
+  color: #b8c3d0;
+  line-height: 1.7;
+  margin: 0;
 }
 
 
@@ -242,14 +236,12 @@ body {
 
 .card h3 {
   font-size: 24px;
-
   margin-top: 20px;
 }
 
 
 .card p {
   line-height: 1.7;
-
   color: #b8c3d0;
 }
 
@@ -260,11 +252,9 @@ body {
   min-height: 70vh;
 
   display: flex;
-
   flex-direction: column;
 
   align-items: center;
-
   justify-content: center;
 
   text-align: center;
@@ -317,55 +307,17 @@ body {
     font-size: 34px;
   }
 
-}
-/* RESEARCH TIMELINE */
+  .timeline {
+    padding-left: 25px;
+  }
 
-.lead-text {
-  font-size: 20px;
-  max-width: 850px;
-  line-height: 1.8;
-}
+  .timeline-item {
+    padding-left: 20px;
+  }
 
-.timeline {
-  position: relative;
-  max-width: 900px;
-  margin-top: 60px;
-  padding-left: 40px;
-  border-left: 2px solid #c9a85c;
-}
+  .timeline-item::before {
+    left: -34px;
+  }
 
-.timeline-item {
-  position: relative;
-  margin-bottom: 55px;
-  padding-left: 30px;
 }
-
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: -49px;
-  top: 7px;
-  width: 14px;
-  height: 14px;
-  background: #c9a85c;
-  border-radius: 50%;
-  box-shadow: 0 0 18px rgba(201, 168, 92, 0.5);
-}
-
-.year {
-  color: #c9a85c;
-  font-size: 14px;
-  letter-spacing: 2px;
-  font-weight: bold;
-}
-
-.timeline-item h3 {
-  font-size: 25px;
-  margin: 10px 0;
-}
-
-.timeline-item p {
-  color: #b8c3d0;
-  line-height: 1.7;
-  margin: 0;
-}
+```
