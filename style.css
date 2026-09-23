@@ -586,14 +586,16 @@ body {
 }
 
 
-.birthday-text {
-  max-width: 600px;
+.birthday-signature {
+  max-width: 620px;
+  margin-top: 35px;
 
-  font-size: 19px;
-
+  font-size: 18px;
   line-height: 1.8;
 
-  color: #c7d0db;
+  color: #c9a85c;
+
+  font-style: italic;
 }
 
 
