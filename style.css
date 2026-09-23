@@ -26,6 +26,57 @@ body {
   text-align: center;
 
   padding: 40px 20px;
+  /* RESEARCH TIMELINE */
+
+.lead-text {
+  font-size: 20px;
+  max-width: 850px;
+  line-height: 1.8;
+}
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin-top: 60px;
+  padding-left: 40px;
+  border-left: 2px solid #c9a85c;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 55px;
+  padding-left: 30px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -49px;
+  top: 7px;
+  width: 14px;
+  height: 14px;
+  background: #c9a85c;
+  border-radius: 50%;
+  box-shadow: 0 0 18px rgba(201, 168, 92, 0.5);
+}
+
+.year {
+  color: #c9a85c;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.timeline-item h3 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.timeline-item p {
+  color: #b8c3d0;
+  line-height: 1.7;
+  margin: 0;
+}
 
   background:
     radial-gradient(circle at center, #173250 0%, #07111f 55%);
