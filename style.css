@@ -394,3 +394,51 @@ body {
   color: #b8c3d0;
   line-height: 1.7;
 }
+/* PUBLICATIONS */
+
+.publication-list {
+  margin-top: 55px;
+}
+
+.publication-item {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+
+  gap: 30px;
+
+  padding: 35px 0;
+
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+.pub-year {
+  color: #c9a85c;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  letter-spacing: 2px;
+}
+
+.pub-content h3 {
+  margin: 0 0 12px 0;
+
+  font-size: 23px;
+
+  line-height: 1.45;
+}
+
+.pub-content p {
+  color: #aeb9c6;
+
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+
+  .publication-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+}
