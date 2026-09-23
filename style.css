@@ -97,7 +97,7 @@ body {
 
   font-weight: 300;
 
-  color: #c9a85c;
+  color: #bf9000;
 
   margin-top: 20px;
 }
@@ -123,9 +123,9 @@ body {
 
   padding: 15px 30px;
 
-  border: 1px solid #c9a85c;
+  border: 1px solid #bf9000;
 
-  color: #c9a85c;
+  color: #bf9000;
 
   text-decoration: none;
 
@@ -136,7 +136,7 @@ body {
 
 
 .button:hover {
-  background: #c9a85c;
+  background: #bf9000;
 
   color: #07111f;
 }
@@ -154,7 +154,7 @@ body {
 
 
 .section-number {
-  color: #c9a85c;
+  color: #bf9000;
 
   letter-spacing: 4px;
 
@@ -207,7 +207,7 @@ body {
 
   padding-left: 40px;
 
-  border-left: 2px solid #c9a85c;
+  border-left: 2px solid #bf9000;
 }
 
 
@@ -233,7 +233,7 @@ body {
 
   height: 14px;
 
-  background: #c9a85c;
+  background: #bf9000;
 
   border-radius: 50%;
 
