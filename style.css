@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -9,118 +8,88 @@ html {
 
 body {
   margin: 0;
-
   font-family: Arial, Helvetica, sans-serif;
-
   background: #07111f;
-
   color: #ffffff;
 }
 
 
-/* HERO */
+/* =========================
+   HERO
+   ========================= */
 
 .hero {
   min-height: 100vh;
-
   display: grid;
-
   grid-template-columns: 1fr 1.1fr;
-
   align-items: center;
-
   gap: 60px;
-
   padding: 60px 8%;
 
   background:
     radial-gradient(circle at center, #173250 0%, #07111f 60%);
 }
 
-
 .hero-photo {
   display: flex;
-
   justify-content: center;
 }
 
-
 .hero-photo img {
   width: 100%;
-
   max-width: 470px;
-
   height: 600px;
 
   object-fit: cover;
 
   border-radius: 8px;
 
-  border: 1px solid rgba(201, 168, 92, 0.35);
+  border: 1px solid rgba(191, 144, 0, 0.35);
 
   box-shadow:
     0 25px 60px rgba(0, 0, 0, 0.45);
 }
 
-
 .hero-content {
   max-width: 750px;
-
   text-align: left;
 }
 
-
 .small-title {
   letter-spacing: 5px;
-
   font-size: 13px;
-
-  color: #c9a85c;
-
+  color: #bf9000;
   margin-bottom: 30px;
 }
 
-
 .hero h1 {
   font-size: clamp(36px, 5vw, 64px);
-
   margin: 0;
-
-  line-height: 1.05;
-
+  line-height: 1.08;
   letter-spacing: 1px;
 }
 
-
 .hero h2 {
   font-size: clamp(25px, 4vw, 42px);
-
   font-weight: 300;
-
   color: #bf9000;
-
   margin-top: 20px;
 }
 
-
 .intro {
   max-width: 650px;
-
   margin: 30px 0;
 
   font-size: 18px;
-
   line-height: 1.8;
 
   color: #d6dce4;
 }
 
-
 .button {
   display: inline-block;
 
   margin-top: 25px;
-
   padding: 15px 30px;
 
   border: 1px solid #bf9000;
@@ -134,69 +103,55 @@ body {
   transition: 0.3s;
 }
 
-
 .button:hover {
   background: #bf9000;
-
   color: #07111f;
 }
 
 
-/* GENERAL SECTIONS */
+/* =========================
+   GENERAL SECTIONS
+   ========================= */
 
 .section {
   padding: 110px 10%;
-
   max-width: 1300px;
-
   margin: auto;
 }
 
-
 .section-number {
   color: #bf9000;
-
   letter-spacing: 4px;
-
   font-size: 13px;
 }
 
-
 .section h2 {
   font-size: 45px;
-
   margin-top: 10px;
 }
 
-
 .section > p {
   max-width: 850px;
-
   line-height: 1.8;
-
   font-size: 18px;
-
   color: #bec8d5;
 }
 
-
 .dark {
   max-width: none;
-
   background: #0c1928;
 }
 
-
 .lead-text {
   font-size: 20px;
-
   max-width: 850px;
-
   line-height: 1.8;
 }
 
 
-/* RESEARCH TIMELINE */
+/* =========================
+   RESEARCH TIMELINE
+   ========================= */
 
 .timeline {
   position: relative;
@@ -210,7 +165,6 @@ body {
   border-left: 2px solid #bf9000;
 }
 
-
 .timeline-item {
   position: relative;
 
@@ -219,18 +173,15 @@ body {
   padding-left: 30px;
 }
 
-
 .timeline-item::before {
   content: "";
 
   position: absolute;
 
   left: -49px;
-
   top: 7px;
 
   width: 14px;
-
   height: 14px;
 
   background: #bf9000;
@@ -238,12 +189,11 @@ body {
   border-radius: 50%;
 
   box-shadow:
-    0 0 18px rgba(201, 168, 92, 0.5);
+    0 0 18px rgba(191, 144, 0, 0.5);
 }
 
-
 .year {
-  color: #c9a85c;
+  color: #bf9000;
 
   font-size: 14px;
 
@@ -252,24 +202,21 @@ body {
   font-weight: bold;
 }
 
-
 .timeline-item h3 {
   font-size: 25px;
-
   margin: 10px 0;
 }
 
-
 .timeline-item p {
   color: #b8c3d0;
-
   line-height: 1.7;
-
   margin: 0;
 }
 
 
-/* DISCOVERY CARDS */
+/* =========================
+   DISCOVERY CARDS
+   ========================= */
 
 .cards {
   display: grid;
@@ -282,17 +229,15 @@ body {
   margin-top: 60px;
 }
 
-
 .card {
   padding: 40px;
 
   background: #101f30;
 
-  border-top: 3px solid #c9a85c;
+  border-top: 3px solid #bf9000;
 
   transition: 0.3s;
 }
-
 
 .card:hover {
   transform: translateY(-8px);
@@ -301,15 +246,13 @@ body {
     0 20px 40px rgba(0, 0, 0, 0.25);
 }
 
-
 .card span {
-  color: #c9a85c;
+  color: #bf9000;
 
   font-size: 12px;
 
   letter-spacing: 3px;
 }
-
 
 .card h3 {
   font-size: 24px;
@@ -319,30 +262,26 @@ body {
   line-height: 1.4;
 }
 
-
 .card p {
   line-height: 1.7;
 
   color: #b8c3d0;
 }
 
-
 .why {
   margin-top: 22px;
 }
 
-
 .why strong {
   color: #ffffff;
 }
-
 
 .paper-link {
   display: inline-block;
 
   margin-top: 22px;
 
-  color: #c9a85c;
+  color: #bf9000;
 
   text-decoration: none;
 
@@ -353,13 +292,14 @@ body {
   transition: 0.3s;
 }
 
-
 .paper-link:hover {
   color: #ffffff;
 }
 
 
-/* RESEARCH IMPACT */
+/* =========================
+   RESEARCH IMPACT
+   ========================= */
 
 .impact-grid {
   display: grid;
@@ -372,25 +312,21 @@ body {
   margin-top: 55px;
 }
 
-
 .impact-card {
   padding: 35px;
 
   background: #0c1928;
 
-  border:
-    1px solid rgba(201, 168, 92, 0.25);
+  border: 1px solid rgba(191, 144, 0, 0.28);
 
   transition: 0.3s;
 }
 
-
 .impact-card:hover {
   transform: translateY(-6px);
 
-  border-color: #c9a85c;
+  border-color: #bf9000;
 }
-
 
 .impact-icon {
   display: flex;
@@ -400,15 +336,13 @@ body {
   justify-content: center;
 
   width: 68px;
-
   height: 68px;
 
-  border:
-    1px solid #c9a85c;
+  border: 1px solid #bf9000;
 
   border-radius: 50%;
 
-  color: #c9a85c;
+  color: #bf9000;
 
   font-size: 14px;
 
@@ -419,27 +353,24 @@ body {
   margin-bottom: 25px;
 }
 
-
 .impact-card h3 {
   font-size: 22px;
-
   margin-bottom: 15px;
 }
 
-
 .impact-card p {
   color: #b8c3d0;
-
   line-height: 1.7;
 }
 
 
-/* PUBLICATIONS */
+/* =========================
+   PUBLICATIONS
+   ========================= */
 
 .publication-list {
   margin-top: 55px;
 }
-
 
 .publication-item {
   display: grid;
@@ -454,9 +385,8 @@ body {
     1px solid rgba(255, 255, 255, 0.12);
 }
 
-
 .pub-year {
-  color: #c9a85c;
+  color: #bf9000;
 
   font-size: 18px;
 
@@ -464,7 +394,6 @@ body {
 
   letter-spacing: 2px;
 }
-
 
 .pub-content h3 {
   margin: 0 0 12px 0;
@@ -474,15 +403,15 @@ body {
   line-height: 1.45;
 }
 
-
 .pub-content p {
   color: #aeb9c6;
-
   margin: 0;
 }
 
 
-/* AWARDS & MILESTONES */
+/* =========================
+   AWARDS & MILESTONES
+   ========================= */
 
 .milestone-grid {
   display: grid;
@@ -495,17 +424,15 @@ body {
   margin-top: 55px;
 }
 
-
 .milestone-card {
   padding: 35px;
 
   background: #0c1928;
 
-  border-left: 3px solid #c9a85c;
+  border-left: 3px solid #bf9000;
 
   transition: 0.3s;
 }
-
 
 .milestone-card:hover {
   transform: translateY(-6px);
@@ -513,11 +440,10 @@ body {
   background: #101f30;
 }
 
-
 .milestone-year {
   display: block;
 
-  color: #c9a85c;
+  color: #bf9000;
 
   font-size: 13px;
 
@@ -528,13 +454,10 @@ body {
   margin-bottom: 15px;
 }
 
-
 .milestone-card h3 {
   font-size: 22px;
-
   margin: 0 0 15px 0;
 }
-
 
 .milestone-card p {
   color: #b8c3d0;
@@ -545,10 +468,12 @@ body {
 }
 
 
-/* BIRTHDAY */
+/* =========================
+   BIRTHDAY ENDING
+   ========================= */
 
 .birthday {
-  min-height: 70vh;
+  min-height: 80vh;
 
   display: flex;
 
@@ -560,46 +485,61 @@ body {
 
   text-align: center;
 
-  padding: 70px 20px;
+  padding: 90px 20px;
 
   background:
     radial-gradient(circle, #173250, #07111f);
 }
 
-
 .birthday > p:first-child {
-  color: #c9a85c;
+  color: #bf9000;
 
   letter-spacing: 5px;
 
   font-size: 13px;
-}
 
+  margin-bottom: 5px;
+}
 
 .birthday h2 {
   font-size:
     clamp(50px, 8vw, 90px);
 
-  margin: 20px 0;
+  margin: 20px 0 35px;
 
   color: #ffffff;
 }
 
+.birthday-text {
+  max-width: 680px;
+
+  margin: 12px auto;
+
+  font-size: 19px;
+
+  line-height: 1.8;
+
+  color: #c7d0db;
+}
 
 .birthday-signature {
   max-width: 620px;
+
   margin-top: 35px;
 
   font-size: 18px;
+
   line-height: 1.8;
 
-  color: #c9a85c;
+  color: #bf9000;
 
   font-style: italic;
 }
 
 
-/* MOBILE */
+/* =========================
+   MOBILE
+   ========================= */
 
 @media (max-width: 700px) {
 
@@ -613,11 +553,9 @@ body {
     padding: 50px 25px;
   }
 
-
   .hero-photo {
     order: 1;
   }
-
 
   .hero-content {
     order: 2;
@@ -625,48 +563,43 @@ body {
     text-align: center;
   }
 
-
   .hero-photo img {
     height: 430px;
 
     max-width: 340px;
   }
 
-
   .hero h1 {
     font-size: 34px;
   }
 
+  .hero h2 {
+    font-size: 28px;
+  }
 
   .intro {
     margin: 25px auto;
   }
 
-
   .section {
     padding: 80px 25px;
   }
-
 
   .section h2 {
     font-size: 34px;
   }
 
-
   .timeline {
     padding-left: 25px;
   }
-
 
   .timeline-item {
     padding-left: 20px;
   }
 
-
   .timeline-item::before {
     left: -34px;
   }
-
 
   .publication-item {
     grid-template-columns: 1fr;
@@ -674,4 +607,19 @@ body {
     gap: 10px;
   }
 
+  .birthday {
+    padding: 80px 25px;
+  }
+
+  .birthday h2 {
+    font-size: 48px;
+  }
+
+  .birthday-text {
+    font-size: 17px;
+  }
+
+  .birthday-signature {
+    font-size: 17px;
+  }
 }
